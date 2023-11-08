@@ -17,7 +17,7 @@ spec:
        - name: dhpasswd
      containers:
        - name: tomcat
-         image:  cdtsbikaner/testproject:BUILD_NUMBER
+         image: rahulpatelabc/newtomcat:BUILD_NUMBER
          ports:
           - containerPort: 8080
       

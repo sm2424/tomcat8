@@ -1,14 +1,13 @@
 FROM centos:7
 
-MAINTAINER "mahinder@gmail.com"
+MAINTAINER "shiv@gmail.com"
 
-#LABEL "Mahinder Singh"
+#LABEL "Shiv Modi"
 
 RUN yum install java-devel net-tool netstat vim bind-utils -y
 
 COPY Dockerfile  /root/
 
-COPY aa.txt /mnt/
 
 ADD apache-tomcat-8.5.89.tar.gz  /opt
 
